@@ -1,0 +1,192 @@
+- title: Home
+  url: /readme
+  not_numbered: true
+- title: Search
+  search: true
+
+- title: Setup SQL on Docker
+  url: /monitor-k8s/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: Setup SQL Server 2019 RC1 in a Linux Docker container
+    url: monitor-k8s/DockerDesktop-with-SQL-PowerShell-71
+  - title: TSG081 - Display the kubernetes namespaces
+    url: monitor-k8s/tsg081-get-kubernetes-namespaces
+  - title: TSG009 - Display Kubernetes nodes
+    url: monitor-k8s/tsg009-get-nodes
+  - title: TSG006 - View system pod status
+    url: monitor-k8s/tsg006-view-system-pod-status
+  - title: TSG007 - View Big Data Cluster Kubernetes pod status
+    url: monitor-k8s/tsg007-view-bdc-pod-status
+  - title: TSG015 - View the Kubernetes services for Big Data Cluster namespace
+    url: monitor-k8s/tsg015-view-kubernetes-services-for-bdc-namespace
+  - title: TSG097 - Display the Kubernetes stateful sets for the Big Data Cluster
+    url: monitor-k8s/tsg097-get-statefulsets
+  - title: TSG098 - Display the Kubernetes replica sets for the Big Data Cluster
+    url: monitor-k8s/tsg098-get-replicasets
+  - title: TSG099 - Display the Kubernetes daemon sets for the Big Data Cluster
+    url: monitor-k8s/tsg099-get-daemonsets
+  - title: TSG023 - Get all Kubernetes objects for BDC namespace
+    url: monitor-k8s/tsg023-run-kubectl-get-all
+  - title: TSG063 - Get the Kubernetes storage classes
+    url: monitor-k8s/tsg063-get-storage-classes
+  - title: TSG072 - Display the persistent volumes (PVs) for the Kubernetes cluster
+    url: monitor-k8s/tsg072-get-persistent-volumes
+  - title: TSG064 - Display the persistent volume claims (PVCs) for the Big Data Cluster
+    url: monitor-k8s/tsg064-get-persistent-volume-claims
+  - title: TSG065 - View big data cluster (BDC) Kubernetes secrets
+    url: monitor-k8s/tsg065-get-secrets-for-bdc-namespace
+  - title: TSG066 - View big data cluster (BDC) events
+    url: monitor-k8s/tsg066-get-kubernetes-events
+  - title: TSG020- Describe all Kubernetes nodes
+    url: monitor-k8s/tsg020-describe-all-nodes
+  - title: TSG016- Describe all pods in the Big Data Cluster Kubernetes namespace
+    url: monitor-k8s/tsg016-describe-all-pods-in-bdc-namespace
+  - title: TSG089 - Describe kubectl all non-running pods in Big Data Cluster namespace
+    url: monitor-k8s/tsg089-describe-all-non-running-pods-in-bdc-namespace
+  - title: TSG010 - Get kubernetes configuration contexts
+    url: monitor-k8s/tsg010-get-kubernetes-contexts
+  - title: TSG022 - Get external IP address for kubeadm host
+    url: monitor-k8s/tsg022-get-external-ip-address-of-kubeadm-host-machine
+- title: Monitor - Big Data Cluster
+  url: /monitor-bdc/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: TSG012 - Show Big Data Cluster status
+    url: monitor-bdc/tsg012-azdata-bdc-status
+  - title: TSG049 - Show Big Data Cluster controller status
+    url: monitor-bdc/tsg049-azdata-bdc-control-status
+  - title: TSG069 - Show Big Data Cluster Gateway status
+    url: monitor-bdc/tsg069-azdata-bdc-gateway-status
+  - title: TSG068 - Show Big Data Cluster HDFS status
+    url: monitor-bdc/tsg068-azdata-bdc-hdfs-status
+  - title: TSG017 - Show Big Data Cluster configuration
+    url: monitor-bdc/tsg017-azdata-bdc-config-show
+  - title: TSG014 - Show Big Data Cluster endpoints
+    url: monitor-bdc/tsg014-azdata-bdc-endpoint-list
+  - title: TSG004 - Show Big Data Cluster apps
+    url: monitor-bdc/tsg004-show-app-list
+  - title: TSG003 - Show Big Data Cluster Spark sessions
+    url: monitor-bdc/tsg003-show-spark-sessions
+  - title: TSG013 - List files in HDFS
+    url: monitor-bdc/tsg013-azdata-bdc-hdfs-ls
+  - title: TSG070 - Use azdata to query SQL master pool
+    url: monitor-bdc/tsg070-use-azdata-sql-query
+- title: Logs
+  url: /log-files/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: TSG001 - Run azdata copy-logs
+    url: log-files/tsg001-copy-logs
+  - title: TSG091 - Get the azdata CLI logs
+    url: log-files/tsg091-get-azdata-logs
+  - title: TSG046 - Get the Knox logs
+    url: log-files/tsg046-get-knox-logs
+  - title: TSG034 - Get the Livy logs
+    url: log-files/tsg034-get-livy-logs
+  - title: TSG035 - Get the Spark History logs
+    url: log-files/tsg035-get-sparkhistory-logs
+  - title: TSG092 - Get supervisord log tail from all containers in BDC namespace
+    url: log-files/tsg092-get-supervisord-log-tail-from-all-containers
+  - title: TSG093 - Get agent log tail from all containers in BDC namespace
+    url: log-files/tsg093-get-agent-log-tail-from-all-containers
+  - title: TSG094 - Get Grafana logs
+    url: log-files/tsg094-get-grafana-logs
+  - title: TSG095 - Get Hadoop namenode logs
+    url: log-files/tsg095-get-namenode-logs
+  - title: TSG095 - Get Zookeeper logs
+    url: log-files/tsg096-get-zookeeper-logs
+  - title: TSG088 - Get Hadoop datanode logs
+    url: log-files/tsg088-get-datanode-logs
+  - title: TSG090 - Get Yarn data node nodemanager logs
+    url: log-files/tsg090-get-nodemanager-logs
+  - title: TSG083 - Run kubectl cluster-info dump
+    url: log-files/tsg083-run-kubectl-cluster-info-dump
+  - title: TSG030 - Get errorlog from all sqlservr instances in big data cluster
+    url: log-files/tsg030-get-errorlog-from-all-sqlservr-instances
+  - title: TSG031 - Get polybase logs from all sqlservr instances in big data cluster
+    url: log-files/tsg031-get-polybase-logs-from-all-sqlservr-instances
+- title: Diagnose
+  url: /diagnose/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: TSG002 - Troubleshoot CrashLoopBackoff issues
+    url: diagnose/tsg002-crash-loop-backoff
+  - title: TSG026 - Connect to data pool node (to run T-SQL)
+    url: diagnose/tsg026-connect-to-data-pool-node-to-run-tsql
+  - title: TSG044 - Connect to SQL on the master pool node using sqlcmd on the container (to run T-SQL)
+    url: diagnose/tsg044-connect-to-sql-master-pool-to-run-tsql
+  - title: TSG025 - FSM Browser - Query Controller FSM state
+    url: diagnose/tsg025-fsm-browser-query-controller-fsm-state
+  - title: TSG027 - Get Controller logs to diagnose cluster deployment issues
+    url: diagnose/tsg027-get-cluster-info-to-diagnose-create-issues
+  - title: TSG029 - Find dumps in the cluster
+    url: diagnose/tsg029-find-dumps-in-the-cluster
+  - title: TSG032 - Get CPU and Memory usage for all containers
+    url: diagnose/tsg032-get-cpu-and-memory-usage-in-all-containers
+- title: Repair 
+  url: /repair/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: TSG024 - Namenode is in safe mode
+    url: repair/tsg024-name-node-is-in-safe-mode
+  - title: TSG076 - Azdata sql query fails with ColumnsWithoutNamesError
+    url: repair/tsg076-sql-query-fails-columns-with-names-error
+  - title: TSG048 - Deployment stuck at "Waiting for controller pod to be up"
+    url: repair/tsg048-deployment-stuck-waiting-for-controller-pod-to-be-up
+- title: Sample 
+  url: /sample/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: SAM001 - Storage Pool - Load sample data
+    url: sample/sam001-load-sample-data-into-bdc
+  - title: SAM002 - Storage Pool - Query HDFS
+    url: sample/sam002-query-hdfs-in-sql-server
+  - title: SAM003 - Data Pool Example
+    url: sample/sam003-data-pool
+- title: Install 
+  url: /install/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: SOP036 - Install kubectl command line interface
+    url: install/sop036-install-kubectl
+  - title: SOP037 - Uninstall kubectl command line interface
+    url: install/sop037-uninstall-kubectl
+  - title: SOP059 - Install Kubernetes Python module
+    url: install/sop059-install-kubernetes-module
+  - title: SOP060 - Uninstall kubernetes module
+    url: install/sop060-uninstall-kubernetes-module
+  - title: SOP062 - Install ipyhton-sql and pyodbc modules
+    url: install/sop062-install-ipython-sql-module
+  - title: SOP055 - Install azdata command line interface
+    url: install/sop055-install-azdata
+  - title: SOP054 - Uninstall azdata command line interface
+    url: install/sop054-uninstall-azdata
+  - title: SOP038 - Install azure command line interface
+    url: install/sop038-install-az
+  - title: SOP039 - Uninstall azure command line interface
+    url: install/sop039-uninstall-az
+  - title: SOP040 - Upgrade pip
+    url: install/sop040-upgrade-pip
+  - title: SOP071 - Install Python
+    url: install/sop071-install-python
+  - title: SOP061 - Delete a big data cluster
+    url: install/sop061-delete-bdc
+- title: Common 
+  url: /common/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: SOP028 - azdata login
+    url: common/sop028-azdata-login
+  - title: SOP033 - azdata logout
+    url: common/sop033-azdata-logout
+  - title: SOP011 - Set kubernetes configuration context to use
+    url: common/sop011-set-kubernetes-context

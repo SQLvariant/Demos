@@ -1,0 +1,54 @@
+- title: Home
+  url: /readme
+  not_numbered: true
+- title: Search
+  search: true
+
+- title: Install Docker Desktop
+  url: /install/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: Install Docker Desktop
+    url: install/Install-Docker-Desktop
+  - title: Configure Docker Desktop Settings
+    url: install/Configure-Docker-Desktop
+- title: Create your SQL Docker containers
+  url: /create/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: Setup SQL Server 2019 using internal storage
+    url: create/DockerDesktop-with-internal-storage
+  - title: Setup SQL Server 2019 using external storage
+    url: create/DockerDesktop-with-external-storage
+  - title: Setup SQL Server 2019 using additional storage
+    url: create/DockerDesktop-with-additional-storage
+- title: Download & sample databases
+  url: /sample/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: Download sample databases
+    url: sample/Download-sample-databases
+- title: Remove your container
+  url: /remove/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: Destroy your SQL Docker container
+    url: remove/Destroy-SQL-Docker-container
+- title: Automate with a Dockerfile
+  url: /automate/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: Create a Dockerfile for repeatability
+    url: automate/Create-Dockerfile-for-repeatability
+- title: Common 
+  url: /common/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: Additional resources
+    url: common/Additional-resources

@@ -1,0 +1,11 @@
+- title: Repair 
+  url: /repair/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: TSG024 - Namenode is in safe mode
+    url: repair/tsg024-name-node-is-in-safe-mode
+  - title: TSG076 - Azdata sql query fails with ColumnsWithoutNamesError
+    url: repair/tsg076-sql-query-fails-columns-with-names-error
+  - title: TSG048 - Deployment stuck at "Waiting for controller pod to be up"
+    url: repair/tsg048-deployment-stuck-waiting-for-controller-pod-to-be-up

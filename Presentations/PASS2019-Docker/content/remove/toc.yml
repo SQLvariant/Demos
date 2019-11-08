@@ -1,0 +1,19 @@
+- title: Diagnose
+  url: /diagnose/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: TSG002 - Troubleshoot CrashLoopBackoff issues
+    url: diagnose/tsg002-crash-loop-backoff
+  - title: TSG026 - Connect to data pool node (to run T-SQL)
+    url: diagnose/tsg026-connect-to-data-pool-node-to-run-tsql
+  - title: TSG044 - Connect to SQL on the master pool node using sqlcmd on the container (to run T-SQL)
+    url: diagnose/tsg044-connect-to-sql-master-pool-to-run-tsql
+  - title: TSG025 - FSM Browser - Query Controller FSM state
+    url: diagnose/tsg025-fsm-browser-query-controller-fsm-state
+  - title: TSG027 - Get Controller logs to diagnose cluster deployment issues
+    url: diagnose/tsg027-get-cluster-info-to-diagnose-create-issues
+  - title: TSG029 - Find dumps in the cluster
+    url: diagnose/tsg029-find-dumps-in-the-cluster
+  - title: TSG032 - Get CPU and Memory usage for all containers
+    url: diagnose/tsg032-get-cpu-and-memory-usage-in-all-containers

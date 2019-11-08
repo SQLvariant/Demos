@@ -1,0 +1,45 @@
+- title: Setup SQL on Docker
+  url: /monitor-k8s/readme
+  not_numbered: true
+  expand_sections: true
+  sections:
+  - title: Setup SQL Server 2019 RC1 in a Linux Docker container
+    url: monitor-k8s/DockerDesktop-with-SQL-PowerShell-71
+  - title: TSG081 - Display the kubernetes namespaces
+    url: monitor-k8s/tsg081-get-kubernetes-namespaces
+  - title: TSG009 - Display Kubernetes nodes
+    url: monitor-k8s/tsg009-get-nodes
+  - title: TSG006 - View system pod status
+    url: monitor-k8s/tsg006-view-system-pod-status
+  - title: TSG007 - View Big Data Cluster Kubernetes pod status
+    url: monitor-k8s/tsg007-view-bdc-pod-status
+  - title: TSG015 - View the Kubernetes services for Big Data Cluster namespace
+    url: monitor-k8s/tsg015-view-kubernetes-services-for-bdc-namespace
+  - title: TSG097 - Display the Kubernetes stateful sets for the Big Data Cluster
+    url: monitor-k8s/tsg097-get-statefulsets
+  - title: TSG098 - Display the Kubernetes replica sets for the Big Data Cluster
+    url: monitor-k8s/tsg098-get-replicasets
+  - title: TSG099 - Display the Kubernetes daemon sets for the Big Data Cluster
+    url: monitor-k8s/tsg099-get-daemonsets
+  - title: TSG023 - Get all Kubernetes objects for BDC namespace
+    url: monitor-k8s/tsg023-run-kubectl-get-all
+  - title: TSG063 - Get the Kubernetes storage classes
+    url: monitor-k8s/tsg063-get-storage-classes
+  - title: TSG072 - Display the persistent volumes (PVs) for the Kubernetes cluster
+    url: monitor-k8s/tsg072-get-persistent-volumes
+  - title: TSG064 - Display the persistent volume claims (PVCs) for the Big Data Cluster
+    url: monitor-k8s/tsg064-get-persistent-volume-claims
+  - title: TSG065 - View big data cluster (BDC) Kubernetes secrets
+    url: monitor-k8s/tsg065-get-secrets-for-bdc-namespace
+  - title: TSG066 - View big data cluster (BDC) events
+    url: monitor-k8s/tsg066-get-kubernetes-events
+  - title: TSG020- Describe all Kubernetes nodes
+    url: monitor-k8s/tsg020-describe-all-nodes
+  - title: TSG016- Describe all pods in the Big Data Cluster Kubernetes namespace
+    url: monitor-k8s/tsg016-describe-all-pods-in-bdc-namespace
+  - title: TSG089 - Describe kubectl all non-running pods in Big Data Cluster namespace
+    url: monitor-k8s/tsg089-describe-all-non-running-pods-in-bdc-namespace
+  - title: TSG010 - Get kubernetes configuration contexts
+    url: monitor-k8s/tsg010-get-kubernetes-contexts
+  - title: TSG022 - Get external IP address for kubeadm host
+    url: monitor-k8s/tsg022-get-external-ip-address-of-kubeadm-host-machine
