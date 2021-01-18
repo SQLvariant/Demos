@@ -1,0 +1,4 @@
+﻿EVALUATE(
+SUMMARIZE(Sales, 'Date'[Month], "Sales Amount", SUM(Sales[Sales Amount]))
+)
+ORDER BY 'Date'[Month] DESC
