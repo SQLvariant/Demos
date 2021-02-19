@@ -14,8 +14,8 @@
 #}
 function LoadAdomdNet {
     "Load ADOMD.NET"
-    #You need to make sure the amd64.19.12.7 version matches the version you installed in the step above
-    $dllPath = "C:\Program Files\PackageManagement\NuGet\Packages\Microsoft.AnalysisServices.AdomdClient.retail.amd64.19.16.0\lib\net45\Microsoft.AnalysisServices.AdomdClient.dll";
+    #You need to make sure the amd64.19.16.3 version matches the version you installed in the step above
+    $dllPath = "C:\Program Files\PackageManagement\NuGet\Packages\Microsoft.AnalysisServices.AdomdClient.retail.amd64.19.16.3\lib\net45\Microsoft.AnalysisServices.AdomdClient.dll";
     #$dllPath = "C:\Program Files\PackageManagement\NuGet\Packages\$($install.Payload.Directories[0].Name)\lib\net45\Microsoft.AnalysisServices.AdomdClient.dll";
     $bytes = [System.IO.File]::ReadAllBytes($dllPath)
     return [System.Reflection.Assembly]::Load($bytes)
