@@ -1,20 +1,20 @@
 #Login to Power BI GCCH
-Connect-PowerBIServiceAccount
+Connect-PowerBIServiceAccount -Environment USGovHigh
 
 #Create a table to hold final data
 $table = New-Object system.Data.DataTable 'Workspace Admin'
 $newcol = New-Object system.Data.DataColumn Workspace,([string]); $table.columns.add($newcol)
 $newcol = New-Object system.Data.DataColumn Admin,([string]); $table.columns.add($newcol)
 
-#Get list of workspaces (not Group or Personal Workspaces) 
+#Get list of workspaces 
 $workspaces = (Get-PowerBIWorkspace -Scope Organization -Type Workspace)
 
 ForEach($workspace in $workspaces) {
   #filter out only Admins
-  $user= $workspaces.users | where-object -Property AccessRight -eq "Admin"
+  $users= $workspace.users | where-object -Property AccessRight -eq "Admin"
   
   #Add admins to the table
-  ForEach($user in $workspace.Users) {
+  ForEach($user in $users) {
     ForEach-Object {
         $row = $table.NewRow()
         $row.Workspace= ($workspace.Name)
