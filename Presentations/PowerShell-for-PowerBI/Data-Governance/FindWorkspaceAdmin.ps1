@@ -1,12 +1,12 @@
 #Login to Power BI GCCH
-Connect-PowerBIServiceAccount -Environment USGovHigh
+Connect-PowerBIServiceAccount
 
 #Create a table to hold final data
 $table = New-Object system.Data.DataTable 'Workspace Admin'
 $newcol = New-Object system.Data.DataColumn Workspace,([string]); $table.columns.add($newcol)
 $newcol = New-Object system.Data.DataColumn Admin,([string]); $table.columns.add($newcol)
 
-#Get list of workspaces 
+#Get list of workspaces (not groups or personal workspaces) 
 $workspaces = (Get-PowerBIWorkspace -Scope Organization -Type Workspace)
 
 ForEach($workspace in $workspaces) {
